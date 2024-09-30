@@ -25,6 +25,7 @@ function App() {
                 <Dashboard />
               </FinancialRecordsProvider>
             }
+
           />
           
         </Routes>
