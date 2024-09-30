@@ -17,16 +17,15 @@ function App() {
           </SignedIn>
         </div>
         <Routes>
-        <Route path="/" element={<Auth />} />
           <Route
-            path="/dashboard"
+            path="/"
             element={
               <FinancialRecordsProvider>
                 <Dashboard />
               </FinancialRecordsProvider>
             }
           />
-          
+          <Route path="/auth" element={<Auth />} />
         </Routes>
       </div>
     </Router>
