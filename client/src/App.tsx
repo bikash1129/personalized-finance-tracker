@@ -11,21 +11,22 @@ function App() {
     <Router>
       <div className="app-container">
         <div className="navbar">
-          <Link to="/"> Dashboard</Link>
+          {/* <Link to="/"> Dashboard</Link> */}
           <SignedIn>
             <UserButton />
           </SignedIn>
         </div>
         <Routes>
+        <Route path="/" element={<Auth />} />
           <Route
-            path="/"
+            path="/dashboard"
             element={
               <FinancialRecordsProvider>
                 <Dashboard />
               </FinancialRecordsProvider>
             }
           />
-          <Route path="/auth" element={<Auth />} />
+          
         </Routes>
       </div>
     </Router>
