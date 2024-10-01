@@ -11,7 +11,7 @@ function App() {
     <Router>
       <div className="app-container">
         <div className="navbar">
-          <Link to="/auth">DashBoard</Link>
+          <Link to="/auth">DASHBOARD</Link>
           <SignedIn>
             <UserButton />
           </SignedIn>
