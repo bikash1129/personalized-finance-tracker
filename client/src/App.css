@@ -19,7 +19,7 @@ html {
 
 /* Navbar styles */
 .navbar {
-  background-color: #3498db; /* Blue shade that matches button colors */
+  background:linear-gradient(to left,rgb(248, 8, 80),rgb(162, 254, 13));; /* Blue shade that matches button colors */
   padding: 10px 20px;
   padding-right: 50px;
   display: flex;
@@ -61,6 +61,3 @@ html {
   color: #e0e0e0; /* Consistency in hover effects */
 }
 
-/* Additional styles to ensure text and elements are vertically aligned properly */
-.navbar * {
-}

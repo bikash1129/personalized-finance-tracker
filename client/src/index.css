@@ -15,7 +15,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #0a0a0a;
   text-decoration: inherit;
 }
 a:hover {
@@ -24,6 +24,7 @@ a:hover {
 
 body {
   margin: 0;
+  background:linear-gradient(to left,rgb(7, 217, 224),rgb(143, 2, 49)); ;
   display: flex;
   place-items: center;
   min-width: 320px;
